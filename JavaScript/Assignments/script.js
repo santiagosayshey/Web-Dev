@@ -9,6 +9,12 @@ console.log(population);
 
 /* Data Types */
 let isIsland = true;
-let lan;
+let language;
 
-let age = 23;
+console.log(isIsland);
+console.log(population);
+console.log(country);
+console.log(language);
+
+/* Let, Const and Var */
+langauge = "english";
