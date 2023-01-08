@@ -55,7 +55,7 @@ is
 sam`);
  */
 
-const age = 1;
+/* const age = 1;
 
 if (age === 19) {
   console.log("yeah im 19");
@@ -64,3 +64,46 @@ if (age === 19) {
 } else {
   console.log("go away");
 }
+ */
+
+/* const inputYear = "1991";
+console.log(inputYear);
+const numInputYear = Number(inputYear);
+console.log(inputYear);
+const stringInputYear = String(inputYear);
+console.log(inputYear); */
+
+/* console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+console.log(Boolean(null));
+console.log(Boolean(""));
+
+console.log(Boolean(1));
+console.log(Boolean("a"));
+
+const money = 1;
+
+if (!money) {
+  console.log(`ya broke`);
+} else {
+  console.log(`ya rich`);
+}
+ */
+
+/* const age = 1;
+if (age != 18) {
+  console.log("is 18");
+} else {
+  console.log("not 18");
+}
+
+const userpass = prompt("Username", "Password");
+console.log(num);
+ */
+
+const hasLicense = false;
+const hasVis = true;
+
+console.log(hasLicense && hasVis);
+console.log(hasLicense || hasVis);
