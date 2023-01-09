@@ -109,7 +109,7 @@ console.log(hasLicense && hasVis);
 console.log(hasLicense || hasVis);
  */
 
-let day = NaN;
+/* let day = NaN;
 
 switch (day) {
   case 1:
@@ -127,3 +127,10 @@ if (day == 1) {
 } else if (day == 2 || day == 3) {
   console.log(`a day`);
 }
+ */
+
+const age = 18;
+
+const drink = age >= 18 ? `Wine` : `Water`;
+
+console.log(`I like to drink ${age >= 18 ? `Wine` : `Water`}`);

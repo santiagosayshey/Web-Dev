@@ -80,3 +80,23 @@ function winner(av1, av2, g) {
 }
 
 winner(d1av, k1av, true); */
+
+/* Coding Challenge 4 */
+
+function tip(price) {
+  return price >= 50 && price <= 300 ? price * 0.15 : price * 0.2;
+}
+
+function total(price) {
+  console.log(
+    `The bill was ${price}, the tip was ${tip(price)}, and the total value ${
+      tip(price) + price
+    }`
+  );
+}
+
+const p1 = 275;
+const p2 = 40;
+const p3 = 430;
+
+total(p1);
