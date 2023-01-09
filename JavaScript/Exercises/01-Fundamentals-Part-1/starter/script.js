@@ -102,8 +102,28 @@ const userpass = prompt("Username", "Password");
 console.log(num);
  */
 
-const hasLicense = false;
+/* const hasLicense = false;
 const hasVis = true;
 
 console.log(hasLicense && hasVis);
 console.log(hasLicense || hasVis);
+ */
+
+let day = NaN;
+
+switch (day) {
+  case 1:
+    console.log(`monday`);
+    break;
+  case 2:
+    console.log(`tuesday`);
+    break;
+  default:
+    console.log(`a day`);
+}
+
+if (day == 1) {
+  console.log(`monday`);
+} else if (day == 2 || day == 3) {
+  console.log(`a day`);
+}
