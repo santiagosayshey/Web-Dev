@@ -97,7 +97,7 @@ console.log(friends.length);
 
 years[2] = 5;
  */
-function calcAge(age) {
+/* function calcAge(age) {
   return 2022 - age;
 }
 
@@ -106,3 +106,65 @@ const years = [1997, 1998, 1999, 2000, 2001, 2006, 2015, 2022];
 for (let x = 0; x < years.length; x++) {
   console.log(calcAge(years[x]));
 }
+ */
+
+/* const arr = new Array(1, 2, 3);
+
+console.log(arr.includes(3));
+
+arr.unshift(4);
+console.log(arr);
+
+console.log(arr);
+
+arr.shift();
+
+console.log(arr); */
+
+/* const sam = {
+  firstName: "sam",
+  lastName: "chau",
+  age: 2022 - 2001,
+  job: "student",
+};
+
+console.log(sam.firstName);
+
+sam.firstName = "bob";
+
+console.log(sam.firstName);
+
+console.log(sam["firstName"]);
+
+sam.newVariable = "new variable";
+
+sam["newVariable2"] = "new variable 2";
+
+console.log(sam);
+ */
+
+/* const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  birthYear: 1991,
+  job: "Teacher",
+  friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicense: true,
+
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+  },
+
+  canDrive: function () {
+    return this.hasDriversLicense === true ? "a" : "no";
+  },
+};
+
+jonas.calcAge();
+
+console.log(
+  `${jonas.firstName} is a ${jonas.age}-year old ${
+    jonas.job
+  } and he has ${jonas.canDrive()} drivers license`
+);
+ */
