@@ -142,29 +142,48 @@ sam["newVariable2"] = "new variable 2";
 
 console.log(sam);
  */
+/* 
+const arr = ["Sam", "Chau", 2001, "Student", [1, 2, 3]];
 
-/* const jonas = {
-  firstName: "Jonas",
-  lastName: "Schmedtmann",
-  birthYear: 1991,
-  job: "Teacher",
-  friends: ["Michael", "Peter", "Steven"],
-  hasDriversLicense: true,
+let typeArr = new Array();
 
-  calcAge: function () {
-    this.age = 2037 - this.birthYear;
-  },
+for (let i = 0; i < arr.length; i++) {
+  if (typeof arr[i] !== "string") break;
+  console.log(`The value '${arr[i]}' is of type: '${typeof arr[i]}'`);
+  typeArr.push(typeof arr[i]); // create a new array with the types of the previous array
+}
 
-  canDrive: function () {
-    return this.hasDriversLicense === true ? "a" : "no";
-  },
-};
-
-jonas.calcAge();
-
-console.log(
-  `${jonas.firstName} is a ${jonas.age}-year old ${
-    jonas.job
-  } and he has ${jonas.canDrive()} drivers license`
-);
+console.log(typeArr);
  */
+
+/* const arr = ["Sam", "Chau", 2001, "Student", [1, 2, 3]];
+
+for (let i = arr.length - 1; i >= 0; i--) {
+  console.log(i, arr[i]);
+}
+
+const matrix = new Array([1, 2, 3], [4, 5, 6], [7, 8, 9]);
+
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = 0; j < matrix[0].length; j++) {
+    console.log(matrix[i][j]);
+  }
+}
+ */
+/* let x = 0;
+
+while (x < 20) {
+  console.log(x);
+  x++;
+} */
+
+let dice = undefined;
+
+function throwDice() {
+  dice = Math.floor(Math.random() * 6) + 1;
+}
+
+while (dice !== 6) {
+  throwDice();
+  console.log(dice);
+}

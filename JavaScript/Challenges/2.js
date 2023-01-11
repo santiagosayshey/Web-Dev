@@ -54,7 +54,7 @@ for (let x = 0; x < bills.length; x++) {
 
 /* Coding Challenge 3 */
 
-class Person {
+/* class Person {
   constructor(name, mass, height) {
     this.fullName = name;
     this.mass = mass;
@@ -85,5 +85,24 @@ if (mark.BMI > john.BMI) {
     `John's (${john.BMI.toFixed(
       2
     )}) BMI is higher than Mark's (${mark.BMI.toFixed(2)})!`
+  );
+}
+ */
+
+/* Coding Challenge 4 */
+
+function tip(price) {
+  return price >= 50 && price <= 300 ? price * 0.15 : price * 0.2;
+}
+
+const bills = new Array(125, 555, 44);
+let tips = new Array();
+let total = new Array();
+
+for (let x = 0; x < bills.length; x++) {
+  tips.push(tip(bills[x]));
+  total.push(bills[x] + tips[x]);
+  console.log(
+    `The bill was ${bills[x]}, the tip was ${tips[x]}, and the total value ${total[x]}`
   );
 }
